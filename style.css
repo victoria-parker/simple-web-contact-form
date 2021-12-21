@@ -8,3 +8,19 @@ body{
     border-radius: .25rem;
     padding: 1rem;
 }
+
+.form-el{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-el textarea {
+    resize: none;
+}
+
+.form-el input,select{
+    padding: 0.25rem;
+}
+#submit{
+
+}
