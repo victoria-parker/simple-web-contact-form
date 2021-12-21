@@ -1,6 +1,9 @@
 body{
     font-family: "Calibri Light";
 }
+h1,h2{
+    margin: 2rem;
+}
 #container{
     width: 500px;
     margin: auto;
@@ -21,6 +24,25 @@ body{
 .form-el input,select{
     padding: 0.25rem;
 }
-#submit{
 
+#buttons{
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.labels{
+    font-weight: bold;
+}
+
+.buttons{
+    padding: .25rem 3rem !important;
+    border: none;
+    border-radius: .25rem;
+}
+#submit:hover,#next:hover{
+    background-color:#88D6B5 ;
+}
+/*complementary calcultated in https://www.canva.com/colors/color-wheel/*/
+#goBack:hover{
+    background-color:#D688A9;
 }

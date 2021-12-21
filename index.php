@@ -23,7 +23,7 @@
 
     <h1>Simple Web Contact Form</h1>
     <div id="container">
-        <form action="" method="POST">
+        <form action="confirmMessage.php" method="POST">
 
             <div class="form-el">
             <label for="userName">UserName: </label>
@@ -46,12 +46,12 @@
             </div>
 
             <div class="form-el">
-            <label for="comments">Comments</label>
-            <textarea name="comments"  id="summernote"></textarea>
+            <label for="message">Message</label>
+            <textarea name="message"  id="summernote"></textarea>
             </div>
 
             <div class="form-el">
-            <button id="submit">Submit</button>
+            <button class="btn" id="next">Next</button>
             </div>
         </form>
     </div>
