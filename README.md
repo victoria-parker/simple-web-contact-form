@@ -3,6 +3,7 @@
 This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!
 Find the project requirements here: [Simple web contact form](https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1)
 
+
 ##About
 
 This project consists of a HTML web form that once completed, it posts the data received to a second page in order to confirm the information is correct. If the data isn't right, it is possible to go back and change it. If it is correct, it can be submitted, and the program will send it by email. It will give a last message confirming the email was sent or informing it wasn't possible to send. 
