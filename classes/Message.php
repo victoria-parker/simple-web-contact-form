@@ -48,7 +48,7 @@ class Message
 
             //Recipients
                 $mail->setFrom('example@email.com',$userName);
-                $mail->addAddress('example@email.com', 'Graeme');
+                $mail->addAddress('example@email.com', 'example');
 
             //Content
             $mail->isHTML(true);                                  //Set email format to HTML
